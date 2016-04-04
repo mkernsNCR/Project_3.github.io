@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(version: 20160401195638) do
   enable_extension "plpgsql"
 
   create_table "constellations", force: :cascade do |t|
+    t.string "name"
+    t.string "image_url"
   end
 
 end
