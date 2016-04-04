@@ -1,0 +1,120 @@
+
+Var data = [
+{
+ "Taurus"
+ "Greek Name": "Taurus",
+ "Origin of Name": "Zeus fell in love with Europa, a Phoenician
+princess, He transformed himself into a white bull and took her away to Crete.",
+ "Most visible": "Northern Hemisphere (Autumn and Winter) and Southern Hemisphere(Late Spring and Summer)",
+ "Biggest Star": "Aldebaran (Red Giant  Alpha Tauri)",
+ "Biggest star distance from Earth": "65.23 Light years"
+},
+
+{
+ "Gemini"
+ "Greek Name": "Gemini",
+ "Origin of Name": "Gemini constellation was named after the mythical twins Castor and Polydeuces.",
+ "Most visible": "Northern Hemisphere(Winter and Spring)and Southern Hemisphere( Summer )",
+ "Biggest Star": "Pollux ( Beta Geminorum )",
+ "Biggest star distance from Earth": "33.72 Light years"
+},
+
+
+
+{
+ "Cancer"
+ "Latin Name": "Cancer",
+ "Origin of Name": "Cancer represents Karkinos, a crab sent by Hera to distract Heracles when he was fighting the Lemean Hydra as part of his Twelve Labours.",
+ "Most visible": "Northern Hemisphere(Autumn to Spring)and Southern Hemisphere( Summer and Autumn)",
+ "Biggest Star": "Altarf ( Beta Cancri )",
+ "Biggest star distance from Earth": "290 Light years"
+},
+
+
+
+{
+ "Leo"
+ "Latin Name":" Leo",
+ "Origin of Name": "Leo constellation is associated with the Nemean lion in Greek mythology, the beast killed by Heracles as part of his Twelve Labours.",
+ "Most visible": "Northern Hemisphere(Mid Winter to Early Summer)and Southern Hemisphere( Summer to Autumn)",
+ "Biggest Star": "Regulus ( Alpha Leonis ),
+ Biggest star distance from Earth: 77.63 Light years"
+},
+
+
+
+{
+ "Virgo"
+ "Latin Name": "Virgo",
+ "Origin of Name": " It is associated with Dike, the Greek goddess of justice, holding the scales of justice represented by the neighbouring constellation Libra.",
+ "Most visible": "Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)",
+ "Biggest Star": "Spica (Alpha Virginis)",
+ "Biggest star distance from Earth": "260.9 Light years"
+},
+
+
+{
+ "Libra"
+ "Latin Name": "Libra",
+ "Origin of Name": "The name Libra means “the weighing scales” , and the constellation represents the scales of justice held by Dike, the Greek goddess of justice, associated with Virgo constellation.",
+ "Most visible": "Northern Hemisphere(Mid Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)",
+ "Biggest Star": "Zubeneschamali (Beta Librae)",
+ "Biggest star distance from Earth": "160 Light years"
+},
+
+
+{
+ "Scorpio"
+ "Latin Name":  "Scorpius",
+ "Origin of Name": "Scorpius is one of the Greek constellations, first catalogued by Ptolemy. It represents the scorpion that killed the mythical hunter Orion.",
+ "Most visible": "Northern Hemisphere( Late Summer )and Southern Hemisphere(Late Spring to Early Autumn)",
+ "Biggest Star": "Antares ( Alpha Scorpii )",
+ "Biggest star distance from Earth": "619.7Light years"
+},
+
+
+{
+ "Sagittarius"
+ "Latin Name": "Sagittarius",
+ "Origin of Name": "Sagittarius constellation represents a centaur aiming an arrow toward Antares, the bright star that marks the scorpion’s heart.",
+ "Most visible": "Northern Hemisphere(Mid Summer to Early Autumn)and Southern Hemisphere(Early summer to early Winter)",
+ "Biggest Star": "Rukbat ( Alpha Sagittarii ),
+ Biggest star distance from Earth: 5000 Light years"
+}
+
+{
+ "Capricorn"
+ "Latin Name": "Capricornus",
+ "Origin of Name": "The constellation’s name means “the goat.” Capricornus is usually taken to represent the Greek forest deity Pan, who had the horns and legs of a goat.",
+ "Most visible": "Northern Hemisphere(Mid Summer to Early Winter ) and Southern Hemisphere ( Early Winter to late Spring )",
+ "Biggest Star": "Prima Giedi ( Capricorni )",
+ "Biggest star distance from Earth": "39 Light years"
+}
+
+{
+ "Aquarius"
+ "Latin Name":" Aquarius",
+ "Origin of Name": "Aquarius is usually associated with Ganymede, the cu carrier to the Olympian gods.",
+ "Most visible": "Northern Hemisphere( Fall )and Southern Hemisphere( Spring )",
+ "Biggest Star": "Beta Aquaria (Yellow Supergiant)",
+ "Biggest star distance from Earth": "600 Light years"
+}
+
+{
+ "Pisces"
+ "Latin Name": "Pisces",
+ "Origin of Name": "Pisces is associated with a story about the goddess Aphrodite and her son Eros transforming themselves into fish to escape the monster Typhon.",
+ "Most visible": "Northern Hemisphere( Late Summer to Mid Winter )and Southern Hemisphere( Spring )",
+ "Biggest Star": "Omega Piscium",
+ "Biggest star distance from Earth": "294 Light years"
+}
+
+{
+ "Aries"
+ "Latin Name": "Aries",
+ "Origin of Name": "Aries is identified as a winged ram with a golden fleece, sent by the nymph Nephele to save her son Phrixus after his father, King Athamas of Boeotia, had been given a false prophecy that he had to sacrifice his son to ward off famine.",
+ "Most visible": "Northern Hemisphere( Spring )and Southern Hemisphere( Autumn )",
+ "Biggest Star": "Arietis (Orange Giant)",
+ "Biggest star distance from Earth": "66 Light years"
+}
+]
