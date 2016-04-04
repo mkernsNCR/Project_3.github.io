@@ -8,3 +8,4 @@
 
 Constellation.destroy_all
 Constellation.create!(JSON.parse(File.read("db/constellations_data.json")))
+# Constellation.create(name: 'Jon', image_url: "http://google.com")
