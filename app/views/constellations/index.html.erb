@@ -1,11 +1,11 @@
 <%= stylesheet_link_tag "constellations", property: :stylesheet %>
 <%= javascript_include_tag "constellations" %>
 
-<div class="container">
+<div class="container" data-ng-app="starfax">
   <header class="jumbotron">
-    <h1>Star Facts</h1>
+    <h1><a data-ui-sref="index" href="#">Starfax</a></h1>
   </header>
-  <main>
+  <main data-ui-view>
 
   </main>
 </div>
