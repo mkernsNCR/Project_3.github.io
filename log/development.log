@@ -358,3 +358,49 @@ Started GET "/constellations" for ::1 at 2016-04-05 14:32:28 -0400
 Processing by ConstellationsController#index as HTML
   [1m[36mConstellation Load (1.7ms)[0m  [1mSELECT "constellations".* FROM "constellations"  ORDER BY "constellations"."id" ASC[0m
 Completed 200 OK in 37ms (Views: 1.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/constellations/" for ::1 at 2016-04-05 19:21:47 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (7.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ConstellationsController#index as HTML
+  Rendered constellations/index.html.erb within layouts/application (446.6ms)
+Completed 200 OK in 581ms (Views: 549.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/constellations.self-20edaf7d5c8ad68bd8321160504c4d806513d18425d2c1128e0ea65e6d8db3c3.css?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/assets/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/assets/application.self-e3aeec5fd5935b99828fb8f43ec8a1afd3aad7f84cc15ac5eafc65b5ad8ef866.css?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/assets/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/assets/angular-resource.self-87d2f7f8a7706590b6a7e2c8519f743502668ae05ae1ae5a059dd27cc5b4c47a.js?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/assets/angular-ui-router.min.self-81da2fb7c51437b78cbcdae9223a8b70113a647dcf038a9db13f2966ae597118.js?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/assets/constellations.self-42f37dec651ab4d5efe6ea981d602f78c8dc2c412a99cdbb3a7da805a4b629ff.js?body=1" for ::1 at 2016-04-05 19:21:49 -0400
+
+
+Started GET "/constellations.json" for ::1 at 2016-04-05 19:21:55 -0400
+Processing by ConstellationsController#index as JSON
+  [1m[35mConstellation Load (8.8ms)[0m  SELECT "constellations".* FROM "constellations"  ORDER BY "constellations"."id" ASC
+Completed 200 OK in 65ms (Views: 0.2ms | ActiveRecord: 35.2ms)
