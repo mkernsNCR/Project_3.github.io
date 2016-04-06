@@ -477,3 +477,204 @@ ORDER BY c.conname
   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
   [1m[35mSQL (3.8ms)[0m  INSERT INTO "constellations" DEFAULT VALUES RETURNING "id"
   [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mConstellation Load (3.0ms)[0m  SELECT "constellations".* FROM "constellations"
+  [1m[36m (2.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.7ms)[0m  DELETE FROM "constellations" WHERE "constellations"."id" = $1  [["id", 13]]
+  [1m[36m (4.6ms)[0m  [1mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mConstellation Load (3.5ms)[0m  SELECT "constellations".* FROM "constellations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mConstellation Load (0.8ms)[0m  SELECT "constellations".* FROM "constellations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mConstellation Load (0.8ms)[0m  SELECT "constellations".* FROM "constellations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mConstellation Load (0.7ms)[0m  SELECT "constellations".* FROM "constellations"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.2ms)[0m  INSERT INTO "constellations" DEFAULT VALUES RETURNING "id"
+  [1m[36m (3.7ms)[0m  [1mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mConstellation Load (1.0ms)[0m  SELECT "constellations".* FROM "constellations"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.8ms)[0m  DELETE FROM "constellations" WHERE "constellations"."id" = $1  [["id", 14]]
+  [1m[36m (9.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Taurus"], ["image_url", "http://i.imgur.com/3mENwvE.jpg"]]
+  [1m[35m (4.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (6.8ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Zeus fell in love with Europa, a Phoenician princess, He transformed himself into a white bull and took her away to Crete."], ["constellation_id", 15]]
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Northern Hemisphere (Autumn and Winter) and Southern Hemisphere(Late Spring and Summer)"], ["constellation_id", 15]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Aldebaran (Red Giant  Alpha Tauri)"], ["constellation_id", 15]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "65.23 Light years"], ["constellation_id", 15]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"  [["name", "Libra"], ["image_url", "http://i.imgur.com/donlj9C.jpg"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.7ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "The name Libra means “the weighing scales” , and the constellation represents the scales of justice held by Dike, the Greek goddess of justice, associated with Virgo constellation."], ["constellation_id", 16]]
+  [1m[35m (3.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)"], ["constellation_id", 16]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Spica (Alpha Virginis)"], ["constellation_id", 16]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "260.9 Light years"], ["constellation_id", 16]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Aries"], ["image_url", "http://i.imgur.com/6RgyK9C.jpg"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Aries is identified as a winged ram with a golden fleece, sent by the nymph Nephele to save her son Phrixus after his father, King Athamas of Boeotia, had been given a false prophecy that he had to sacrifice his son to ward off famine."], ["constellation_id", 17]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Northern Hemisphere( Spring )and Southern Hemisphere( Autumn )"], ["constellation_id", 17]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Arietis (Orange Giant)"], ["constellation_id", 17]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "66 Light years"], ["constellation_id", 17]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"  [["name", "Scorpio"], ["image_url", "http://i.imgur.com/S3yx1.png"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Scorpius is one of the Greek constellations, first catalogued by Ptolemy. It represents the scorpion that killed the mythical hunter Orion."], ["constellation_id", 18]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Northern Hemisphere( Late Summer )and Southern Hemisphere(Late Spring to Early Autumn)"], ["constellation_id", 18]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Antares ( Alpha Scorpii )"], ["constellation_id", 18]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "619.7Light years"], ["constellation_id", 18]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Cancer"], ["image_url", "http://i.imgur.com/f7oGsQy.jpg"]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Cancer represents Karkinos, a crab sent by Hera to distract Heracles when he was fighting the Lemean Hydra as part of his Twelve Labours."], ["constellation_id", 19]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Northern Hemisphere(Autumn to Spring)and Southern Hemisphere( Summer and Autumn)"], ["constellation_id", 19]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Pollux ( Beta Geminorum )"], ["constellation_id", 19]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "33.72 Light years"], ["constellation_id", 19]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"  [["name", "Virgo"], ["image_url", "http://i.imgur.com/DphZER6.jpg"]]
+  [1m[36m (13.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Virgo is associated with Dike, the Greek goddess of justice, holding the scales of justice represented by the neighbouring constellation Libra."], ["constellation_id", 20]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)"], ["constellation_id", 20]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Spica (Alpha Virginis)"], ["constellation_id", 20]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "260.9 Light years"], ["constellation_id", 20]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Sagittarius"], ["image_url", "http://i.imgur.com/oBV7cmX.png"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Sagittarius constellation represents a centaur aiming an arrow toward Antares, the bright star that marks the scorpion’s heart."], ["constellation_id", 21]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Northern Hemisphere(Mid Summer to Early Autumn)and Southern Hemisphere(Early summer to early Winter)"], ["constellation_id", 21]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Rukbat ( Alpha Sagittarii )"], ["constellation_id", 21]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "5000 Light years"], ["constellation_id", 21]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"  [["name", "Capricorn"], ["image_url", "http://i.imgur.com/RYPrsU5.png"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "The Capricorn means “the goat.” Capricornus is usually taken to represent the Greek forest deity Pan, who had the horns and legs of a goat."], ["constellation_id", 22]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Northern Hemisphere(Mid Summer to Early Winter ) and Southern Hemisphere ( Early Winter to late Spring )"], ["constellation_id", 22]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Prima Giedi ( Capricorni )"], ["constellation_id", 22]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "39 Light years"], ["constellation_id", 22]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Aquarius"], ["image_url", "http://i.imgur.com/ECianaS.png"]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Aquarius is usually associated with Ganymede, the cup carrier to the Olympian gods."], ["constellation_id", 23]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Northern Hemisphere( Fall )and Southern Hemisphere( Spring )"], ["constellation_id", 23]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Beta Aquaria (Yellow Supergiant)"], ["constellation_id", 23]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "600 Light years"], ["constellation_id", 23]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"  [["name", "Pisces"], ["image_url", "http://i.imgur.com/i754Pj6.gif"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Pisces is associated with a story about the goddess Aphrodite and her son Eros transforming themselves into fish to escape the monster Typhon."], ["constellation_id", 24]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Northern Hemisphere( Late Summer to Mid Winter )and Southern Hemisphere( Spring )"], ["constellation_id", 24]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Omega Piscium"], ["constellation_id", 24]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "294 Light years"], ["constellation_id", 24]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "constellations" ("name", "image_url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Gemini"], ["image_url", "http://i.imgur.com/vCq75uj.png"]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Gemini constellation was named after the mythical twins Castor and Polydeuces."], ["constellation_id", 25]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Northern Hemisphere(Winter and Spring)and Southern Hemisphere( Summer )"], ["constellation_id", 25]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Pollux ( Beta Geminorum )"], ["constellation_id", 25]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "33.72 Light years"], ["constellation_id", 25]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "constellations" DEFAULT VALUES RETURNING "id"
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Leo constellation is associated with the Nemean lion in Greek mythology, the beast killed by Heracles as part of his Twelve Labours."], ["constellation_id", 26]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "Northern Hemisphere(Mid Winter to Early Summer)and Southern Hemisphere( Summer to Autumn)"], ["constellation_id", 26]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"[0m  [["text", "Regulus ( Alpha Leonis )"], ["constellation_id", 26]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "facts" ("text", "constellation_id") VALUES ($1, $2) RETURNING "id"  [["text", "77.63 Light years"], ["constellation_id", 26]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m

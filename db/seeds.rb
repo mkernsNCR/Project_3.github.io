@@ -10,8 +10,8 @@ Constellation.destroy_all
 # Constellation.create!(JSON.parse(File.read("db/constellations_data.json")))
 constdata= JSON.parse(File.read("db/constellations_data.json"))
 constdata.each do |constellation|
-  new_constelllation= Constellation.create!(constellation[:constdata])
-  constellation[:facts].each do |fact|
+  new_constelllation= Constellation.create!(constellation["constdata"])
+  constellation["facts"].each do |fact|
     new_constelllation.facts.create!(text: fact)
   end
 end
