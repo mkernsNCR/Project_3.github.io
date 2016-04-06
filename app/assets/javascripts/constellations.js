@@ -19,9 +19,19 @@
    "$resource",
    constFactoryFunction
  ])
+ .factory("facts",[
+   "$resource",
+   factFactoryFunction
+ ])
  .controller("indexCtrl", [
    "Constellation",
    indexCtrlFunction
+ ])
+ .controller("showCtrl",[
+   "Constellation",
+   "$stateParams",
+   "facts",
+   showCtrlFunction
  ]);
 
  function RouterFunction($stateProvider){
@@ -33,7 +43,10 @@
      controllerAs: "indexVM"
    })
    .state("show", {
-     url: "/:id"
+     url: "/:id",
+     templateUrl:"/ng-views/constellation.show.html",
+     controller: "showCtrl",
+     controllerAs:"showVM"
    });
  }
 
@@ -44,11 +57,22 @@
    Constellation.all = Constellation.query();
    return Constellation;
  }
+ function factFactoryFunction($resource){
+   var Fact = $resource("/constellations/:id/facts.json", {}, {
+     update: {method: "PUT"}
+   });
+   return Fact;
+ }
 
  function indexCtrlFunction(Constellation){
    var indexVM = this;
-   console.log("Hello");
    indexVM.constellations = Constellation.all;
+   indexVM.newConstellation= new Constellation();
+
  }
+function showCtrlFunction( Constellation, $stateParams, facts){
+  this.constellation = Constellation.get({id:$stateParams.id})
+  this.facts = facts.query({id: $stateParams.id})
+}
 
 })();
