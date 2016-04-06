@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160401195638) do
+ActiveRecord::Schema.define(version: 20160406160117) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,6 +23,11 @@ ActiveRecord::Schema.define(version: 20160401195638) do
     t.string "star"
     t.string "star_distance_from_earth"
     t.string "image_url"
+  end
+
+  create_table "facts", force: :cascade do |t|
+    t.string  "text"
+    t.integer "constellation_id"
   end
 
 end
