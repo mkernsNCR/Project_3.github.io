@@ -7,4 +7,8 @@ class ConstellationsController < ApplicationController
       format.json{render json: @constellations.to_json, status: :ok}
     end
   end
+  def show
+    @constellation = Constellation.find(params[:id])
+    render json: @constellation
+  end
 end

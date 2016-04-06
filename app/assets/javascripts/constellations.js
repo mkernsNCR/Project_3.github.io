@@ -22,6 +22,11 @@
  .controller("indexCtrl", [
    "Constellation",
    indexCtrlFunction
+ ])
+ .controller("showCtrl",[
+   "Constellation",
+   "$stateParams",
+   showCtrlFunction
  ]);
 
  function RouterFunction($stateProvider){
@@ -33,7 +38,10 @@
      controllerAs: "indexVM"
    })
    .state("show", {
-     url: "/:id"
+     url: "/:id",
+     templateUrl:"/ng-views/constellation.show.html",
+     controller: "showCtrl",
+     controllerAs:"showVM"
    });
  }
 
@@ -47,8 +55,12 @@
 
  function indexCtrlFunction(Constellation){
    var indexVM = this;
-   console.log("Hello");
    indexVM.constellations = Constellation.all;
+   indexVM.newConstellation= new Constellation();
+
  }
+function showCtrlFunction( Constellation,$stateParams){
+  this.constellation = Constellation.get({id:$stateParams.id})
+}
 
 })();
