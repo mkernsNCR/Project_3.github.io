@@ -3,16 +3,16 @@
 */
 
 body{
-  background-color: black;
+  background-image: white;
 }
 img{
-/*border-radius: 50%;*/
-width: 50%;
 display: inline-block;
 }
 
-/*.line{*/
 .text{
-  position:;
-  bottom: 0;
+  align-content: center;
+}
+
+.blazer{
+  font-family: blazer;
 }
