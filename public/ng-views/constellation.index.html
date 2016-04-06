@@ -1,6 +1,6 @@
-<div class="row well" data-ng-repeat="constellation in indexVM.constellations">
-  <div class="col-md-1">
-    <h3><a class="btn btn-default btn-sm" data-ui-sref="show({id: constellation.id})" role="Small button">{{constellation.name}}</a></h3>
+<div class="row">
+  <div class="col-md-1"  data-ng-repeat="constellation in indexVM.constellations">
+    <h3 class="text"><a href="#" data-ui-sref="show({id: constellation.id})">{{constellation.name}}</a></h3>
   </div>
   <div class="col-md-1">
     <img class="img-responsive img-rounded" data-ng-src="{{constellation.image_url}}" />
