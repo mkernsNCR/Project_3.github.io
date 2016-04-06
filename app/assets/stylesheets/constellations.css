@@ -1,17 +1,22 @@
 /*
 *= require bootstrap
 */
-.container{
-  text-align: center;
-  font-family: Blazer;
-  text-decoration-color: black;
-  background-color: black;
-}
+
 
 body{
   background-color: black;
 }
+img{
+/*border-radius: 50%;*/
+width: 50%;
+display: inline-block;
+}
 
-button{
-  
+/*.line{*/
+  display: inline-block;
+  width:100%;
+}
+.text{
+  position:;
+  bottom: 0;
 }
