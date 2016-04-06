@@ -1,2 +1,5 @@
 <h1> {{showVM.constellation.name}}</h1>
 <img src ="{{showVM.constellation.image_url}}">
+<div data-ng-repeat = "fact in showVM.facts">
+  {{fact.text}}
+</div>
