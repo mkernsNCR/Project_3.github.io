@@ -1,3 +1,19 @@
+{
+  "constdata": {
+    "name": "Taurus",
+    "image_url": "http://i.imgur.com/3mENwvE.jpg"
+  },
+
+  "facts":[
+    "Zeus fell in love with Europa, a Phoenician princess, He transformed himself into a white bull and took her away to Crete.",
+    "Northern Hemisphere (Autumn and Winter) and Southern Hemisphere(Late Spring and Summer)",
+    "Aldebaran (Red Giant  Alpha Tauri)",
+    "65.23 Light years"
+
+  ]
+},
+
+
 [
   {
      "name": "Taurus",
