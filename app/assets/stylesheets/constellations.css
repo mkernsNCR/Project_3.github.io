@@ -1,8 +1,18 @@
 /*
 *= require bootstrap
 */
-.styling {
-  background: url(http://i.imgur.com/aHomcBx.jpg);
-  background-size: cover;
-  padding-top: 50px;
+
+body{
+  background-color: black;
+}
+img{
+/*border-radius: 50%;*/
+width: 50%;
+display: inline-block;
+}
+
+/*.line{*/
+.text{
+  position:;
+  bottom: 0;
 }
