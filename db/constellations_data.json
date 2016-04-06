@@ -5,7 +5,7 @@
      "visibility": "Northern Hemisphere (Autumn and Winter) and Southern Hemisphere(Late Spring and Summer)",
      "star": "Aldebaran (Red Giant  Alpha Tauri)",
      "star_distance_from_earth": "65.23 Light years",
-     "image_url": "http://i.imgur.com/3mENwvE.jpg"
+     "image_url": "http://i.imgur.com/VqCE52x.jpg"
   },
   {
      "name": "Libra",
@@ -13,7 +13,7 @@
      "visibility": "Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)",
      "star": "Spica (Alpha Virginis)",
      "star_distance_from_earth": "260.9 Light years",
-     "image_url": "http://i.imgur.com/donlj9C.jpg"
+     "image_url": "http://i.imgur.com/pHHKAcJ.jpg"
   },
   {
      "name": "Aries",
@@ -21,7 +21,7 @@
      "visibility": "Northern Hemisphere( Spring )and Southern Hemisphere( Autumn )",
      "star": "Arietis (Orange Giant)",
      "star_distance_from_earth": "66 Light years",
-     "image_url": "http://i.imgur.com/6RgyK9C.jpg"
+     "image_url": "http://i.imgur.com/0Dm6wBi.jpg"
   },
   {
      "name": "Scorpio",
@@ -29,7 +29,7 @@
      "visibility": "Northern Hemisphere( Late Summer )and Southern Hemisphere(Late Spring to Early Autumn)",
      "star": "Antares ( Alpha Scorpii )",
      "star_distance_from_earth": "619.7Light years",
-     "image_url": "http://i.imgur.com/S3yx1.png"
+     "image_url": "http://i.imgur.com/EeJuX8E.jpg"
   },
   {
     "name": "Cancer",
@@ -37,7 +37,7 @@
     "visibility": "Northern Hemisphere(Autumn to Spring)and Southern Hemisphere( Summer and Autumn)",
     "star": "Pollux ( Beta Geminorum )",
     "star_distance_from_earth": "33.72 Light years",
-    "image_url": "http://i.imgur.com/f7oGsQy.jpg"
+    "image_url": "http://i.imgur.com/z9IVd09.jpg"
   },
   {
     "name": "Virgo",
@@ -45,7 +45,7 @@
     "visibility": "Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)",
     "star": "Spica (Alpha Virginis)",
     "star_distance_from_earth": "260.9 Light years",
-    "image_url": "http://i.imgur.com/DphZER6.jpg"
+    "image_url": "http://i.imgur.com/rLZdRQZ.jpg"
   },
   {
     "name": "Sagittarius",
@@ -53,7 +53,7 @@
     "visibility": "Northern Hemisphere(Mid Summer to Early Autumn)and Southern Hemisphere(Early summer to early Winter)",
     "star": "Rukbat ( Alpha Sagittarii )",
     "star_distance_from_earth": "5000 Light years",
-    "image_url": "http://i.imgur.com/oBV7cmX.png"
+    "image_url": "http://i.imgur.com/42nQz4B.jpg"
   },
   {
     "name": "Capricorn",
@@ -61,7 +61,7 @@
     "visibility": "Northern Hemisphere(Mid Summer to Early Winter ) and Southern Hemisphere ( Early Winter to late Spring )",
     "star": "Prima Giedi ( Capricorni )",
     "star_distance_from_earth": "39 Light years",
-    "image_url": "http://i.imgur.com/RYPrsU5.png"
+    "image_url": "http://i.imgur.com/7mjP0zw.jpg"
   },
   {
     "name": "Aquarius",
@@ -69,7 +69,7 @@
     "visibility": "Northern Hemisphere( Fall )and Southern Hemisphere( Spring )",
     "star": "Beta Aquaria (Yellow Supergiant)",
     "star_distance_from_earth": "600 Light years",
-    "image_url": "http://i.imgur.com/ECianaS.png"
+    "image_url": "http://i.imgur.com/bcSEiQt.jpg"
   },
   {
     "name": "Pisces",
@@ -77,7 +77,7 @@
     "visibility": "Northern Hemisphere( Late Summer to Mid Winter )and Southern Hemisphere( Spring )",
     "star": "Omega Piscium",
     "star_distance_from_earth": "294 Light years",
-    "image_url": "http://i.imgur.com/i754Pj6.gif"
+    "image_url": "http://i.imgur.com/XfflG7W.jpg"
   },
   {
     "name": "Gemini",
@@ -85,7 +85,7 @@
     "visibility": "Northern Hemisphere(Winter and Spring)and Southern Hemisphere( Summer )",
     "star": "Pollux ( Beta Geminorum )",
     "star_distance_from_earth": "33.72 Light years",
-    "image_url": "http://i.imgur.com/vCq75uj.png"
+    "image_url": "http://i.imgur.com/xkrCRNm.jpg"
   },
   {
     "name": "Leo",
@@ -93,6 +93,6 @@
     "visibility": "Northern Hemisphere(Mid Winter to Early Summer)and Southern Hemisphere( Summer to Autumn)",
     "star": "Regulus ( Alpha Leonis )",
     "star_distance_from_earth": "77.63 Light years",
-    "image_url": "http://i.imgur.com/AwN8dJ3.jpg"
+    "image_url": "http://i.imgur.com/d5s5y04.jpg"
   }
  ]
