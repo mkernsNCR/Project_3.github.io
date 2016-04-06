@@ -9,106 +9,119 @@
     "Northern Hemisphere (Autumn and Winter) and Southern Hemisphere(Late Spring and Summer)",
     "Aldebaran (Red Giant  Alpha Tauri)",
     "65.23 Light years"
+  ]
+},
+
+{
+  "constdata":{
+    "name": "Libra",
+    "image_url": "http://i.imgur.com/donlj9C.jpg"
+  },
+  "facts":[
+    "The name Libra means “the weighing scales” , and the constellation represents the scales of justice held by Dike, the Greek goddess of justice, associated with Virgo constellation.","Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)","Spica (Alpha Virginis)","260.9 Light years"
 
   ]
 },
 
+{
+  "constdata":{
+    "name": "Aries",
+    "image_url": "http://i.imgur.com/6RgyK9C.jpg"
+  },
+  "facts":[
+    "Aries is identified as a winged ram with a golden fleece, sent by the nymph Nephele to save her son Phrixus after his father, King Athamas of Boeotia, had been given a false prophecy that he had to sacrifice his son to ward off famine.","Northern Hemisphere( Spring )and Southern Hemisphere( Autumn )","Arietis (Orange Giant)","66 Light years"
+  ]
+};
 
-[
-  {
-     "name": "Taurus",
-     "origin": "Zeus fell in love with Europa, a Phoenician princess, He transformed himself into a white bull and took her away to Crete.",
-     "visibility": "Northern Hemisphere (Autumn and Winter) and Southern Hemisphere(Late Spring and Summer)",
-     "star": "Aldebaran (Red Giant  Alpha Tauri)",
-     "star_distance_from_earth": "65.23 Light years",
-     "image_url": "http://i.imgur.com/3mENwvE.jpg"
+
+{
+  "constdata":{
+    "name": "Scorpio",
+    "image_url": "http://i.imgur.com/S3yx1.png"
   },
-  {
-     "name": "Libra",
-     "origin": "The name Libra means “the weighing scales” , and the constellation represents the scales of justice held by Dike, the Greek goddess of justice, associated with Virgo constellation.",
-     "visibility": "Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)",
-     "star": "Spica (Alpha Virginis)",
-     "star_distance_from_earth": "260.9 Light years",
-     "image_url": "http://i.imgur.com/donlj9C.jpg"
-  },
-  {
-     "name": "Aries",
-     "origin": "Aries is identified as a winged ram with a golden fleece, sent by the nymph Nephele to save her son Phrixus after his father, King Athamas of Boeotia, had been given a false prophecy that he had to sacrifice his son to ward off famine.",
-     "visibility": "Northern Hemisphere( Spring )and Southern Hemisphere( Autumn )",
-     "star": "Arietis (Orange Giant)",
-     "star_distance_from_earth": "66 Light years",
-     "image_url": "http://i.imgur.com/6RgyK9C.jpg"
-  },
-  {
-     "name": "Scorpio",
-     "origin": "Scorpius is one of the Greek constellations, first catalogued by Ptolemy. It represents the scorpion that killed the mythical hunter Orion.",
-     "visibility": "Northern Hemisphere( Late Summer )and Southern Hemisphere(Late Spring to Early Autumn)",
-     "star": "Antares ( Alpha Scorpii )",
-     "star_distance_from_earth": "619.7Light years",
-     "image_url": "http://i.imgur.com/S3yx1.png"
-  },
-  {
+  "facts":[
+    "Scorpius is one of the Greek constellations, first catalogued by Ptolemy. It represents the scorpion that killed the mythical hunter Orion.","Northern Hemisphere( Late Summer )and Southern Hemisphere(Late Spring to Early Autumn)", "Antares ( Alpha Scorpii )","619.7Light years",
+  ]
+};
+
+
+{
+  "constdata":{
     "name": "Cancer",
-    "origin": "Cancer represents Karkinos, a crab sent by Hera to distract Heracles when he was fighting the Lemean Hydra as part of his Twelve Labours.",
-    "visibility": "Northern Hemisphere(Autumn to Spring)and Southern Hemisphere( Summer and Autumn)",
-    "star": "Pollux ( Beta Geminorum )",
-    "star_distance_from_earth": "33.72 Light years",
     "image_url": "http://i.imgur.com/f7oGsQy.jpg"
   },
-  {
+  "facts":[
+    "Cancer represents Karkinos, a crab sent by Hera to distract Heracles when he was fighting the Lemean Hydra as part of his Twelve Labours.","Northern Hemisphere(Autumn to Spring)and Southern Hemisphere( Summer and Autumn)","Pollux ( Beta Geminorum )","33.72 Light years"
+  ]
+},
+
+{
+  "constdata":{
     "name": "Virgo",
-    "origin": "Virgo is associated with Dike, the Greek goddess of justice, holding the scales of justice represented by the neighbouring constellation Libra.",
-    "visibility": "Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)",
-    "star": "Spica (Alpha Virginis)",
-    "star_distance_from_earth": "260.9 Light years",
     "image_url": "http://i.imgur.com/DphZER6.jpg"
   },
-  {
+  "facts":[
+    "Virgo is associated with Dike, the Greek goddess of justice, holding the scales of justice represented by the neighbouring constellation Libra.","Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)", "Spica (Alpha Virginis)" "260.9 Light years"
+  ]
+},
+
+{
+  "constdata":{
     "name": "Sagittarius",
-    "origin": "Sagittarius constellation represents a centaur aiming an arrow toward Antares, the bright star that marks the scorpion’s heart.",
-    "visibility": "Northern Hemisphere(Mid Summer to Early Autumn)and Southern Hemisphere(Early summer to early Winter)",
-    "star": "Rukbat ( Alpha Sagittarii )",
-    "star_distance_from_earth": "5000 Light years",
     "image_url": "http://i.imgur.com/oBV7cmX.png"
   },
-  {
-    "name": "Capricorn",
-    "origin": "The Capricorn means “the goat.” Capricornus is usually taken to represent the Greek forest deity Pan, who had the horns and legs of a goat.",
-    "visibility": "Northern Hemisphere(Mid Summer to Early Winter ) and Southern Hemisphere ( Early Winter to late Spring )",
-    "star": "Prima Giedi ( Capricorni )",
-    "star_distance_from_earth": "39 Light years",
+  "facts":[
+    "Sagittarius constellation represents a centaur aiming an arrow toward Antares, the bright star that marks the scorpion’s heart.","Northern Hemisphere(Mid Summer to Early Autumn)and Southern Hemisphere(Early summer to early Winter)","Rukbat ( Alpha Sagittarii )","5000 Light years"
+  ]
+},
+
+{
+  "constdata":{
+    "name":"Capricorn",
     "image_url": "http://i.imgur.com/RYPrsU5.png"
   },
-  {
+  "facts":[
+    "The Capricorn means “the goat.” Capricornus is usually taken to represent the Greek forest deity Pan, who had the horns and legs of a goat.", "Northern Hemisphere(Mid Summer to Early Winter ) and Southern Hemisphere ( Early Winter to late Spring )","Prima Giedi ( Capricorni )","39 Light years"
+
+  ]
+},
+
+{
+  "constdata":{
     "name": "Aquarius",
-    "origin": "Aquarius is usually associated with Ganymede, the cu carrier to the Olympian gods.",
-    "visibility": "Northern Hemisphere( Fall )and Southern Hemisphere( Spring )",
-    "star": "Beta Aquaria (Yellow Supergiant)",
-    "star_distance_from_earth": "600 Light years",
     "image_url": "http://i.imgur.com/ECianaS.png"
   },
-  {
-    "name": "Pisces",
-    "origin": "Pisces is associated with a story about the goddess Aphrodite and her son Eros transforming themselves into fish to escape the monster Typhon.",
-    "visibility": "Northern Hemisphere( Late Summer to Mid Winter )and Southern Hemisphere( Spring )",
-    "star": "Omega Piscium",
-    "star_distance_from_earth": "294 Light years",
-    "image_url": "http://i.imgur.com/i754Pj6.gif"
-  },
-  {
+  "facts":[
+    "Aquarius is usually associated with Ganymede, the cup carrier to the Olympian gods.","Northern Hemisphere( Fall )and Southern Hemisphere( Spring )", "Beta Aquaria (Yellow Supergiant)", "600 Light years"
+
+  ]
+},
+
+{
+  "constdata": {
+  "name": "Pisces",
+  "image_url": "http://i.imgur.com/i754Pj6.gif"
+},
+  "facts":[
+    "Pisces is associated with a story about the goddess Aphrodite and her son Eros transforming themselves into fish to escape the monster Typhon.", "Northern Hemisphere( Late Summer to Mid Winter )and Southern Hemisphere( Spring )", "Omega Piscium", "294 Light years"
+  ]
+},
+
+{
+  "constdata":{
     "name": "Gemini",
-    "origin": "Gemini constellation was named after the mythical twins Castor and Polydeuces.",
-    "visibility": "Northern Hemisphere(Winter and Spring)and Southern Hemisphere( Summer )",
-    "star": "Pollux ( Beta Geminorum )",
-    "star_distance_from_earth": "33.72 Light years",
     "image_url": "http://i.imgur.com/vCq75uj.png"
   },
-  {
+  "facts":[
+    "Gemini constellation was named after the mythical twins Castor and Polydeuces.", "Northern Hemisphere(Winter and Spring)and Southern Hemisphere( Summer )", "Pollux ( Beta Geminorum )", "33.72 Light years"
+  ]
+},
+{
+  "contsdata":{
     "name": "Leo",
-    "origin": "Leo constellation is associated with the Nemean lion in Greek mythology, the beast killed by Heracles as part of his Twelve Labours.",
-    "visibility": "Northern Hemisphere(Mid Winter to Early Summer)and Southern Hemisphere( Summer to Autumn)",
-    "star": "Regulus ( Alpha Leonis )",
-    "star_distance_from_earth": "77.63 Light years",
     "image_url": "http://i.imgur.com/AwN8dJ3.jpg"
-  }
- ]
+  },
+  "facts":[
+      "Leo constellation is associated with the Nemean lion in Greek mythology, the beast killed by Heracles as part of his Twelve Labours.", "Northern Hemisphere(Mid Winter to Early Summer)and Southern Hemisphere( Summer to Autumn)", "Regulus ( Alpha Leonis )","77.63 Light years"
+  ]
+}
