@@ -2,7 +2,6 @@
 *= require bootstrap
 */
 
-
 body{
   background-color: black;
 }
@@ -13,9 +12,6 @@ display: inline-block;
 }
 
 /*.line{*/
-  display: inline-block;
-  width:100%;
-}
 .text{
   position:;
   bottom: 0;
