@@ -17,7 +17,7 @@
   {
     "constdata":{
       "name": "Libra",
-      "image_url": "http://i.imgur.com/donlj9C.jpg"
+      "image_url": "http://i.imgur.com/pHHKAcJ.jpg"
     },
     "facts":[
       "The name Libra means “the weighing scales” , and the constellation represents the scales of justice held by Dike, the Greek goddess of justice, associated with Virgo constellation.","Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)","Spica (Alpha Virginis)","260.9 Light years"
@@ -29,7 +29,7 @@
   {
     "constdata":{
       "name": "Aries",
-      "image_url": "http://i.imgur.com/6RgyK9C.jpg"
+      "image_url": "http://i.imgur.com/0Dm6wBi.jpg"
     },
     "facts":[
       "Aries is identified as a winged ram with a golden fleece, sent by the nymph Nephele to save her son Phrixus after his father, King Athamas of Boeotia, had been given a false prophecy that he had to sacrifice his son to ward off famine.","Northern Hemisphere( Spring )and Southern Hemisphere( Autumn )","Arietis (Orange Giant)","66 Light years"
@@ -40,7 +40,7 @@
   {
     "constdata":{
       "name": "Scorpio",
-      "image_url": "http://i.imgur.com/S3yx1.png"
+      "image_url": "http://i.imgur.com/EeJuX8E.jpg"
     },
     "facts":[
       "Scorpius is one of the Greek constellations, first catalogued by Ptolemy. It represents the scorpion that killed the mythical hunter Orion.","Northern Hemisphere( Late Summer )and Southern Hemisphere(Late Spring to Early Autumn)", "Antares ( Alpha Scorpii )",
@@ -52,7 +52,7 @@
   {
     "constdata":{
       "name": "Cancer",
-      "image_url": "http://i.imgur.com/f7oGsQy.jpg"
+      "image_url": "http://i.imgur.com/z9IVd09.jpg"
     },
     "facts":[
       "Cancer represents Karkinos, a crab sent by Hera to distract Heracles when he was fighting the Lemean Hydra as part of his Twelve Labours.",
@@ -66,7 +66,7 @@
   {
     "constdata":{
       "name": "Virgo",
-      "image_url": "http://i.imgur.com/DphZER6.jpg"
+      "image_url": "http://i.imgur.com/rLZdRQZ.jpg"
     },
     "facts":[
       "Virgo is associated with Dike, the Greek goddess of justice, holding the scales of justice represented by the neighbouring constellation Libra.","Northern Hemisphere(Early Spring to Mid Summer)and Southern Hemisphere( Autumn and Winter)", "Spica (Alpha Virginis)",
@@ -78,7 +78,7 @@
   {
     "constdata":{
       "name": "Sagittarius",
-      "image_url": "http://i.imgur.com/oBV7cmX.png"
+      "image_url": "http://i.imgur.com/42nQz4B.jpg"
     },
     "facts":[
       "Sagittarius constellation represents a centaur aiming an arrow toward Antares, the bright star that marks the scorpion’s heart.","Northern Hemisphere(Mid Summer to Early Autumn)and Southern Hemisphere(Early summer to early Winter)","Rukbat ( Alpha Sagittarii )","5000 Light years"
@@ -89,7 +89,7 @@
   {
     "constdata":{
       "name":"Capricorn",
-      "image_url": "http://i.imgur.com/RYPrsU5.png"
+      "image_url": "http://i.imgur.com/7mjP0zw.jpg"
     },
     "facts":[
       "The Capricorn means “the goat.” Capricornus is usually taken to represent the Greek forest deity Pan, who had the horns and legs of a goat.", "Northern Hemisphere(Mid Summer to Early Winter ) and Southern Hemisphere ( Early Winter to late Spring )","Prima Giedi ( Capricorni )","39 Light years"
@@ -101,7 +101,7 @@
   {
     "constdata":{
       "name": "Aquarius",
-      "image_url": "http://i.imgur.com/ECianaS.png"
+      "image_url": "http://i.imgur.com/bcSEiQt.jpg"
     },
     "facts":[
       "Aquarius is usually associated with Ganymede, the cup carrier to the Olympian gods.","Northern Hemisphere( Fall )and Southern Hemisphere( Spring )", "Beta Aquaria (Yellow Supergiant)", "600 Light years"
@@ -113,7 +113,7 @@
   {
     "constdata": {
       "name": "Pisces",
-      "image_url": "http://i.imgur.com/i754Pj6.gif"
+      "image_url": "http://i.imgur.com/XfflG7W.jpg"
     },
     "facts":[
       "Pisces is associated with a story about the goddess Aphrodite and her son Eros transforming themselves into fish to escape the monster Typhon.", "Northern Hemisphere( Late Summer to Mid Winter )and Southern Hemisphere( Spring )", "Omega Piscium", "294 Light years"
@@ -124,7 +124,7 @@
   {
     "constdata":{
       "name": "Gemini",
-      "image_url": "http://i.imgur.com/vCq75uj.png"
+      "image_url": "http://i.imgur.com/xkrCRNm.jpg"
     },
     "facts":[
       "Gemini constellation was named after the mythical twins Castor and Polydeuces.", "Northern Hemisphere(Winter and Spring)and Southern Hemisphere( Summer )", "Pollux ( Beta Geminorum )", "33.72 Light years"
@@ -135,7 +135,7 @@
   {
     "contsdata":{
       "name": "Leo",
-      "image_url": "http://i.imgur.com/AwN8dJ3.jpg"
+      "image_url": "http://i.imgur.com/d5s5y04.jpg"
     },
     "facts":[
       "Leo constellation is associated with the Nemean lion in Greek mythology, the beast killed by Heracles as part of his Twelve Labours.", "Northern Hemisphere(Mid Winter to Early Summer)and Southern Hemisphere( Summer to Autumn)", "Regulus ( Alpha Leonis )","77.63 Light years"
