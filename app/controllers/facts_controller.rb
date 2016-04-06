@@ -2,7 +2,7 @@ class FactsController < ApplicationController
 
   def index
     @constellation = Constellation.find(params[:id])
-    @facts = @Constallation.facts
+    @facts = @constallation.facts
     render json: @facts
   end
 end
