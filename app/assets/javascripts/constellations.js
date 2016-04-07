@@ -1,7 +1,3 @@
-//= require angular
-//= require angular-resource
-//= require angular-ui-router.min
-
 "use strict";
 
 (function(){
@@ -32,7 +28,17 @@
    "$stateParams",
    "facts",
    showCtrlFunction
- ]);
+ ])
+ .directive("nav", [
+   navDirectiveFunction
+ ])
+
+ function navDirectiveFunction() {
+   return{
+     templateUrl: "ng-views/_nav.html",
+     restrict: "A"
+   }
+ }
 
  function RouterFunction($stateProvider){
    $stateProvider
@@ -67,7 +73,7 @@
  function indexCtrlFunction(Constellation){
    var indexVM = this;
    indexVM.constellations = Constellation.all;
-   indexVM.newConstellation= new Constellation();
+   indexVM.newConstellation = new Constellation();
 
  }
 function showCtrlFunction( Constellation, $stateParams, facts){

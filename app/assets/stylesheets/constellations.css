@@ -1,10 +1,6 @@
 /*
 *= require bootstrap
 */
-@font-face {
-  font-family: space;
-  src: url("http://www.fontspace.com/boba-fonts/star-jedi?text=&fontsize=80&foreground=000000&background=FFFFFF");
-}
 
 body {
   background-image: url("http://i.imgur.com/aHomcBx.jpg");
@@ -17,6 +13,29 @@ header {
   text-align: center;
 }
 
+a {
+  color: hotpink;
+}
+
+h1, h2 {
+  color: hotpink;
+  font-weight: bold;
+}
+img {
+border-radius: 50%;
+display: inline-block;
+}
+
+button {
+  background-image: url("http://i.imgur.com/ZUpLPjo.jpg");
+  font-size: 25px;
+}
+
+p.jumbotron {
+  background-image: url("http://i.imgur.com/ZUpLPjo.jpg");
+  font-size: 75px;
+}
+
 .show-page {
   float: left;
   padding: 20px;
@@ -24,19 +43,6 @@ header {
 
 .conts-name {
   padding-left: 11%;
-}
-
-a {
-  color: hotpink;
-}
-
-h1, h2 {
-  color: white;
-}
-img{
-border-radius: 50%;
-/*width: 50%;*/
-display: inline-block;
 }
 
 .constellation h3 {
