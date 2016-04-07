@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  resources :constellations
-
-  root to: redirect('/constellations')
+  resources :constellations do
+    resources:facts
+  end
 
 end
