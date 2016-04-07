@@ -6,10 +6,13 @@ body {
   background-image: url("http://i.imgur.com/aHomcBx.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: space;
 }
 
-header {
+header, h1, a {
+  font-family: blazer;
+}
+
+header{
   text-align: center;
 }
 
