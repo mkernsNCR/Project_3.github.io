@@ -1,18 +1,46 @@
 /*
 *= require bootstrap
 */
+@font-face {
+  font-family: space;
+  src: url("http://www.fontspace.com/boba-fonts/star-jedi?text=&fontsize=80&foreground=000000&background=FFFFFF");
+}
 
-body{
-  background-color: black;
+body {
+  background-image: url("http://i.imgur.com/aHomcBx.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: space;
+}
+
+header {
+  text-align: center;
+}
+
+.show-page {
+  float: left;
+  padding: 20px;
+}
+
+.conts-name {
+  padding-left: 11%;
+}
+
+a {
+  color: hotpink;
+}
+
+h1, h2 {
+  color: white;
 }
 img{
-/*border-radius: 50%;*/
-width: 50%;
+border-radius: 50%;
+/*width: 50%;*/
 display: inline-block;
 }
 
-/*.line{*/
-.text{
-  position:;
-  bottom: 0;
+.constellation h3 {
+  display:inline-block;
+  text-align:center;
+  width: 100%;
 }

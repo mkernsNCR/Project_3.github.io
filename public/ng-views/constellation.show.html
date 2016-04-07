@@ -1,5 +1,7 @@
-<h1> {{showVM.constellation.name}}</h1>
-<img src ="{{showVM.constellation.image_url}}">
-<div data-ng-repeat = "fact in showVM.facts">
-  {{fact.text}}
+<div class="container">
+  <h1 class="conts-name"> {{showVM.constellation.name}}</h1>
+    <img class="show-page" src ="{{showVM.constellation.image_url}}">
+    <div data-ng-repeat = "fact in showVM.facts">
+      <h2>{{fact.text}}</h2>
+    </div>
 </div>
