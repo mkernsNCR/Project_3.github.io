@@ -38,6 +38,9 @@
      templateUrl: "ng-views/_nav.html",
      restrict: "A"
    }
+   // Nice use of a custom directive!
+   // Not totally necessary since you could just include the "home" button
+   // on your `index.html.erb`, but still cool!
  }
 
  function RouterFunction($stateProvider){
