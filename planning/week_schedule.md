@@ -1,5 +1,7 @@
 #Week Schedule
 
+<!-- Take a look at Github's "markdown" syntax so you don't have to write HTML all over the place in readmes: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet -->
+
 <h2>Friday</h2>
 <h3>Deliverables</h3>
 <p>Planning folder complete (User Stories, Wireframe, Pseudo, and README)</p>
